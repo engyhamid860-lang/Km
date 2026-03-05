@@ -36,11 +36,11 @@ export function SpinningWheel() {
 
       const w = window.innerWidth
 
-      if(w < 380) setWheelSize(210)
-      else if(w < 420) setWheelSize(230)
-      else if(w < 500) setWheelSize(250)
-      else if(w < 700) setWheelSize(270)
-      else setWheelSize(300)
+      if(w < 380) setWheelSize(190)
+else if(w < 420) setWheelSize(210)
+else if(w < 500) setWheelSize(230)
+else if(w < 700) setWheelSize(260)
+else setWheelSize(300)
 
     }
 
